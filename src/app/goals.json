@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Subgoal 1",
+    "amount": 100,
+    "done": true
+  },
+  {
+    "title": "Subgoal 2",
+    "amount": 250,
+    "done": false
+  },
+  {
+    "title": "Subgoal 3",
+    "amount": 1000,
+    "done": false
+  }
+]
