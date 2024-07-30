@@ -1,17 +1,78 @@
 [
   {
-    "title": "Subgoal 1",
-    "amount": 100,
-    "done": true
+    "title": "J'appelle Memo",
+    "amount": 100
   },
   {
-    "title": "Subgoal 2",
-    "amount": 250,
-    "done": false
+    "title": "Dessin Aquo (genderbend)",
+    "amount": 200
   },
   {
-    "title": "Subgoal 3",
-    "amount": 1000,
-    "done": false
+    "title": "Redesign Pet",
+    "amount": 300
+  },
+  {
+    "title": "Boîte aux lettres",
+    "amount": 400
+  },
+  {
+    "title": "T-shirts Aquakwa",
+    "amount": 500
+  },
+  {
+    "title": "Karaoke Viewers",
+    "amount": 700
+  },
+  {
+    "title": "Couture tenue pour Berlioz",
+    "amount": 1000
+  },
+  {
+    "title": "LoL: Choix champion + build",
+    "amount": 1200
+  },
+  {
+    "title": "Live Full Voix Nerd",
+    "amount": 1500
+  },
+  {
+    "title": "Let's Play vote viewers",
+    "amount": 1700
+  },
+  {
+    "title": "Je refais une fresque",
+    "amount": 2000
+  },
+  {
+    "title": "Je commence mon webcomic",
+    "amount": 2200
+  },
+  {
+    "title": "Mini BD Aquakwa",
+    "amount": 2500
+  },
+  {
+    "title": "Evènement rp pendant une semaine",
+    "amount": 3200
+  },
+  {
+    "title": "Plat' sur LoL ou Silver sur Valorant",
+    "amount": 3500
+  },
+  {
+    "title": "Live 24h sans cut",
+    "amount": 4000
+  },
+  {
+    "title": "Ouverture Boutique 2025",
+    "amount": 4500
+  },
+  {
+    "title": "IRL Japan Expo VIP 2025",
+    "amount": 5000
+  },
+  {
+    "title": "Live ASMR",
+    "amount": 6000
   }
 ]

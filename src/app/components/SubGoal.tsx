@@ -28,10 +28,10 @@ const SubGoal = (props: SubGoalProps) => {
         width={55}
         height={55}
       />
-      <p className="pl-5 italic">{props.title}</p>
+      <p className="pl-5 pr-2 italic">{props.title}</p>
       <p
         className={
-          "px-2 py-0 text-white rounded-full w-15 text-right " +
+          "px-2 py-0 text-white rounded-full w-15 text-right h-6 " +
           (props.done
             ? " bg-amber-200 text-gray-600"
             : " bg-slate-500 shadow-[rgba(255,255,255,0.3)_0px_0px_2px_2px]")

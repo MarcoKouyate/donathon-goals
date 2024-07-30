@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import goals from "./goals.json";
 
 export default function Home() {
-  const [indexCompleted, SetIndexCompleted] = useState(0);
+  const [indexCompleted, SetIndexCompleted] = useState(-1);
 
   return (
     <main>
@@ -13,6 +13,7 @@ export default function Home() {
         return (
           <div
             onClick={() => {
+              if (indexCompleted == 0) index = -1;
               SetIndexCompleted(index);
             }}
           >
