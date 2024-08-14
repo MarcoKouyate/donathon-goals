@@ -1,11 +1,20 @@
 "use client";
 
 import React from "react";
-import goals from "../goals.json";
+//import goals from "../goals.json";
 import SubGoal from "./SubGoal";
-import { useState, useLayoutEffect } from "react";
+import { useState, useLayoutEffect, useEffect } from "react";
 
-const Main = () => {
+interface GoalProp {
+  title: string;
+  amount: number;
+}
+
+interface MainProps {
+  goals: GoalProp[];
+}
+
+const Main = (props: MainProps) => {
   const [indexCompleted, SetIndexCompleted] = useState(-1);
 
   useLayoutEffect(() => {
@@ -29,7 +38,7 @@ const Main = () => {
   return (
     <>
       <div className="h-screen"></div>
-      {goals.map((goal, index) => {
+      {props.goals.map((goal, index) => {
         return (
           <div
             onClick={() => {

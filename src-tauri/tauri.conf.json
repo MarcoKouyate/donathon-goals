@@ -13,6 +13,13 @@
     "allowlist": {
       "window": {
         "all": true
+      },
+      "fs": {
+        "scope": ["$RESOURCE/*"],
+        "all": true
+      },
+      "path": {
+        "all": true
       }
     },
     "bundle": {
@@ -33,7 +40,7 @@
         "providerShortName": null,
         "signingIdentity": null
       },
-      "resources": [],
+      "resources": ["resources/goals.json"],
       "shortDescription": "",
       "targets": "all",
       "windows": {
